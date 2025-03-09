@@ -9,4 +9,18 @@
  */
 public class LotFactory {
     
+    public static Lot createLot(int id, double size, double price, String location, String status) {
+        
+        Lot lot = new Lot();
+        
+        
+        lot.setId(id);
+        lot.setSize(size);
+        lot.setPrice(price);
+        lot.setLocation(location);
+        lot.setStatus(status);
+        
+        
+        return lot;
+    }
 }
