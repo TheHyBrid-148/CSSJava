@@ -18,17 +18,14 @@ public class User {
     }
 
     public Lot searchLot(int id) {
-        // Placeholder implementation
         System.out.println("Searching for lot with ID: " + id);
-        return new Lot(id); // Assuming Lot has a constructor that takes an ID
+        return new Lot(id); 
     }
 
     public void reserveLot(int id) {
-        // Placeholder implementation
         System.out.println("Reserving lot with ID: " + id);
     }
 
-    // Getters and setters (if needed)
     public String getName() {
         return name;
     }
@@ -46,7 +43,6 @@ public class User {
     }
 }
 
-// Assuming a Lot class exists
 class Lot {
     private int id;
 
