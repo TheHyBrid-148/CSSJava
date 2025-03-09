@@ -4,7 +4,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class MenuFrame extends JFrame {
-    // Components
     private JButton searchButton;
     private JButton reserveButton;
     private JButton sellButton;
@@ -69,7 +68,7 @@ public class MenuFrame extends JFrame {
     private void openSearchFrame() {
         SearchFrame searchFrame = new SearchFrame();
         searchFrame.setVisible(true);
-        this.dispose(); // Close the current frame
+        this.dispose(); 
     }
 
     private void openReservationFrame() {
